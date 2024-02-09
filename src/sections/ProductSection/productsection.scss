@@ -1,0 +1,89 @@
+@import '../../styles/variables';
+
+.products {
+  padding: 0em 1em;
+  background-color: $nav-color;
+  height: 100vh;
+
+  h1 {
+    text-align: center;
+    color: $txt-color;
+    margin-bottom: 2em;
+    padding-top: 4%;
+  }
+
+  .slick-arrow {
+    // Use before pseudo-element to create the arrow shape
+    &::before {
+      // This will be the arrow icon provided by slick
+      font-size: 50px; // Increase the size of the arrow icon
+      color: $txt-color; // Arrow color
+    }
+  }
+
+  .slick-prev, .slick-next {
+    z-index: 1; // Make sure arrows are above the slider content
+  }
+
+  .slick-prev {
+    left: 0px; // Position from the left - adjust as necessary
+    // Adjust the position to make sure it's visible and not overlapping with the slider content
+  }
+
+  .slick-next {
+    right: 30px; 
+
+  }
+
+  .navigationButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    button {
+      min-width: 180px;
+      margin: 0px 10px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      background-color: $bg-color;
+      color: $nav-color2;
+      padding: 5px 20px;
+      border: 2.5px solid #FFF;
+      border-radius: 90px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      font-size: 1.5em;
+      transition: background-color 0.3s, transform 0.3s;
+      font-weight: 400;
+
+      &:hover {
+        background-color: $earth-orange;
+      }
+      &.activeButton {
+        background-color: $earth-orange;
+      }
+    }
+  }
+
+  .slick-slider {
+    .slick-list {
+      margin: 0% 3%;
+      .slick-slide {
+        opacity: 0.5;
+        transition: opacity 0.6s ease, transform 0.6s ease;
+
+        &.slick-center {
+          opacity: 1;
+          padding-bottom: 20px;
+          .card {
+            opacity: 1;
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
+  }
+}

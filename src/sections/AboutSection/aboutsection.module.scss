@@ -1,0 +1,45 @@
+@import '../../styles/variables'; 
+
+.about {
+    min-height: 50vh; // Hauteur minimale pour s'assurer qu'elle n'est pas trop petite
+    // Ne pas définir de hauteur maximale pour permettre au contenu de s'étendre
+    background-color: $bg-color-about;
+    display: flex;
+    flex-direction: column;
+    color: $hover-txt-color;
+
+    .imgAbsolute {
+        position: absolute;
+        max-height: 80%;
+        bottom: 0;
+        left: 0;
+        // Styles pour l'image positionnée absolument
+    }
+
+    .imagePlaceholder {
+        height: 80%; // Assurez-vous que cela correspond à la hauteur de .imgAbsolute
+        margin-bottom: 20%; // Ajustez cela pour que l'espace réservé soit aligné avec le bas de .imgAbsolute
+        margin-right: 10%;
+    }
+
+    h1 {
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        min-height: 45vh;
+
+        p {
+            margin-left: 300px;
+            margin-right: 15%;
+            margin-top:2%;
+            width: 80%;
+            line-height: 150%;
+        }
+    }
+}

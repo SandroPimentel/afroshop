@@ -1,0 +1,40 @@
+@import '../../styles/variables'; 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin: 2em;
+  transition: all 0.6s ease;
+  opacity: 0.5; 
+  margin-top: 10%;
+  width: 90%;
+
+  .image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    color: $hover-txt-color;
+    margin: 0.5rem 0;
+  }
+
+  .description {
+    font-size: 1em;
+    color: $nav-color2;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 1em;
+    height: 100px;
+  }
+}

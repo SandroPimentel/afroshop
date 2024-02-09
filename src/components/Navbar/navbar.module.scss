@@ -1,0 +1,80 @@
+@import '../../styles/variables'; 
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $nav-color;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in-out;
+  
+      li {
+        margin: 0 2em;
+  
+        a {
+          color: $txt-color; 
+          text-decoration: none;
+          position: relative;
+          padding: 5px 0; 
+          font-size: 1.1em;
+          cursor: pointer;
+          transition: color 0.3s, transform 0.3s;
+
+          img {
+            height: 1.1em;
+            width: 1.1em;
+            margin: 0;
+            margin-bottom: -3px;
+            margin-right: 0.4em;
+            min-width: 1.1em;
+          }
+  
+          &:hover, &:focus {
+            color: $hover-txt-color;
+  
+            &::after {
+              content: '';
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              height: 2px;
+              background: $hover-txt-color;
+              transform: scaleX(1);
+            }
+          }
+  
+          &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 2px;
+            background: $hover-txt-color;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+            transform-origin: center;
+          }
+        }
+      }
+    }
+  }

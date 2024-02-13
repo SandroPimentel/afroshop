@@ -1,8 +1,6 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import styles from './mapsection.module.scss';
-import StoreImage from '../../images/store-pic.webp';
-import Arrow from '../../images/arrow-map.webp';
 
 const MapSection = () => {
   const boutiqueCoords = { lat: 44.741527938889945, lng: 1.439012065212722 };
@@ -27,7 +25,7 @@ const MapSection = () => {
       <div className={styles.mapContent}>
         <div style={{ height: '50vh', width:'1000px'}}>
           <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyCI41KdBAva2dRUXRKdqrInMg39xfqhz0E' }}
+            bootstrapURLKeys={{ key: 'AIzaSyDKvSpOtXnWUTLqxoTC_-qZWm8HNh52Q6k' }}
             defaultCenter={boutiqueCoords}
             defaultZoom={11}
             yesIWantToUseGoogleMapApiInternals

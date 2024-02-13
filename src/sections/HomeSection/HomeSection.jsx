@@ -14,7 +14,7 @@ const HomeSection = () => {
     <section className={`${styles.home} ${isLoaded ? styles.loaded : ''}`} id="home">
       <div className={styles.container}> 
         <h1>Bienvenue chez Afroshop</h1>
-        <div className={styles.subtitleAndButton}> {/* Nouvelle div pour le sous-titre et le bouton */}
+        <div className={styles.subtitleAndButton}> 
           <p>Découvrez une collection exceptionnelle de produits qui célèbrent la riche culture africaine.</p>
           <ScrollLink to="map" className={styles['cta-button']} smooth={true}>Notre Boutique</ScrollLink>
         </div>

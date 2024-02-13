@@ -17,7 +17,7 @@ import imageCoiffure1056 from '../../images/coiffureImages/coiffure_1056x792.web
 
 const ProductSection = () => {
   const sliderRef = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(0); // Initialisez à 0 ou à l'index de départ souhaité
+  const [activeIndex, setActiveIndex] = useState(0); 
 
   const settings = {
     dots: false,
@@ -29,39 +29,47 @@ const ProductSection = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    afterChange: current => setActiveIndex(current) // Ajoutez cette ligne
+    afterChange: current => setActiveIndex(current) 
   };
 
   const products = [
     {
       id: 1,
       title: "Bijoux",
-      description: "Description for product bijoux",
-      imageUrl: imageBijoux528, // l'image par défaut pour les petits écrans
+      description: "Description pour bijoux",
+      imageUrl: imageBijoux528, 
       srcSet: `${imageBijoux528} 528w, ${imageBijoux1056} 1056w`,
       sizes: "(max-width: 528px) 528px, 1056px"
     },
     {
       id: 2,
       title: "Epicerie",
-      description: "Description for product épicerie",
-      imageUrl: imageEpicerie528, // l'image par défaut pour les petits écrans
+      description: "Description pour épicerie",
+      imageUrl: imageEpicerie528,
       srcSet: `${imageEpicerie528} 528w, ${imageEpicerie1056} 1056w`,
       sizes: "(max-width: 528px) 528px, 1056px"
     },
     {
-      id: 3, // Assurez-vous que l'ID correspond à celui de votre produit "Coiffure"
+      id: 3,
       title: "Coiffure",
-      description: "Description for product coiffure",
-      imageUrl: imageCoiffure528, // l'image par défaut pour les petits écrans
+      description: "Description pour coiffure",
+      imageUrl: imageCoiffure528,
       srcSet: `${imageCoiffure528} 528w, ${imageCoiffure1056} 1056w`,
       sizes: "(max-width: 528px) 528px, 1056px"
     },
     {
-      id: 4, // ou le prochain ID disponible dans votre liste
-      title: "Sacs",
-      description: "Description for product sacs",
-      imageUrl: imageSacs528, // l'image par défaut pour les petits écrans
+      id: 4,
+      title: "Beauté",
+      description: "Description pour sacs",
+      imageUrl: imageSacs528,
+      srcSet: `${imageSacs528} 528w, ${imageSacs1056} 1056w`,
+      sizes: "(max-width: 528px) 528px, 1056px"
+    },
+    {
+      id: 4,
+      title: "Vêtements",
+      description: "Description pour sacs",
+      imageUrl: imageSacs528,
       srcSet: `${imageSacs528} 528w, ${imageSacs1056} 1056w`,
       sizes: "(max-width: 528px) 528px, 1056px"
     }

@@ -12,27 +12,21 @@
     padding-top: 4%;
   }
 
-  .slick-arrow {
-    // Use before pseudo-element to create the arrow shape
-    &::before {
-      // This will be the arrow icon provided by slick
-      font-size: 50px; // Increase the size of the arrow icon
-      color: $txt-color; // Arrow color
-    }
+  .slick-arrow::before {
+    font-size: 50px;
+    color: $txt-color;
   }
 
   .slick-prev, .slick-next {
-    z-index: 1; // Make sure arrows are above the slider content
+    z-index: 1;
   }
 
   .slick-prev {
-    left: 0px; // Position from the left - adjust as necessary
-    // Adjust the position to make sure it's visible and not overlapping with the slider content
+    left: 0px;
   }
 
   .slick-next {
     right: 30px; 
-
   }
 
   .navigationButtons {

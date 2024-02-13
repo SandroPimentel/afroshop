@@ -15,7 +15,7 @@ const AboutSection = () => {
     <section className={styles.about} id="about">
       <h1>À propos de Afroshop</h1>
       <div className={styles.content}>
-      <div className={styles.imagePlaceholder}> {/* Espace réservé pour l'image */}
+      <div className={styles.imagePlaceholder}> 
           <img 
             className={styles.imgAbsolute} 
             srcSet={`
@@ -28,7 +28,7 @@ const AboutSection = () => {
               ${AboutImage1960} 1960w
             `}
             sizes="(min-width: 1240px) 20.11vw, (min-width: 1160px) calc(-30vw + 611px), (min-width: 960px) calc(-18.33vw + 472px), (min-width: 860px) calc(-45vw + 719px), (min-width: 780px) calc(-61.67vw + 849px), (min-width: 660px) calc(-55vw + 785px), (min-width: 560px) calc(-68.75vw + 862px), (min-width: 340px) calc(83.5vw + 45px), calc(-330vw + 1376px)"
-            src={AboutImage1960} // Fallback for browsers that do not support srcset
+            src={AboutImage1960} 
             alt='african lady profile art'
           />
         </div>

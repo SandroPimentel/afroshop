@@ -8,10 +8,8 @@
   .footerContent {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px; // Espacement entre le contenu du footer et le footerBottom
 
     .footerSection1, .footerSection2 {
-      // Si besoin, ajustez pour un meilleur espacement et alignement
       margin-right: 20px;
 
       a {
@@ -19,7 +17,7 @@
       }
       
       h3 {
-        margin-bottom: 1em; // Espacement sous les titres des sections pour une meilleure lisibilité
+        margin-bottom: 1em;
       }
 
       p, ul {
@@ -28,12 +26,12 @@
 
       li {
         display: flex;
-        align-items: center; // Alignement des icônes avec le texte
+        align-items: center;
 
         img {
-          width: 50px; // Taille réduite pour les logos
-          height: auto; // Maintient l'aspect ratio
-          margin-left: 0.5em; // Un petit espacement à gauche du logo pour ne pas coller au texte
+          width: 50px;
+          height: auto;
+          margin-left: 0.5em;
         }
       }
     }
@@ -43,4 +41,3 @@
     text-align: center;
   }
 }
-

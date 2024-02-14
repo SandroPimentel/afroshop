@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-Sandro-Pimentel/static/css/main.1d09e7d1.css",
+    "main.js": "/portfolio-Sandro-Pimentel/static/js/main.75d4fe69.js",
+    "static/media/home-bg.webp": "/portfolio-Sandro-Pimentel/static/media/home-bg.aa65473a3445178327bb.webp",
+    "static/media/epicerie.webp": "/portfolio-Sandro-Pimentel/static/media/epicerie.30633b82fc83d4e801f9.webp",
+    "static/media/sacs.webp": "/portfolio-Sandro-Pimentel/static/media/sacs.572d627d9e2fdb71c119.webp",
+    "static/media/beaute.webp": "/portfolio-Sandro-Pimentel/static/media/beaute.b8054c595cf4567f4936.webp",
+    "static/media/coiffure.webp": "/portfolio-Sandro-Pimentel/static/media/coiffure.b187983b64be4b14075e.webp",
+    "static/media/bijoux.webp": "/portfolio-Sandro-Pimentel/static/media/bijoux.646c127c81d82956d427.webp",
+    "static/media/resized_1960x1960.webp": "/portfolio-Sandro-Pimentel/static/media/resized_1960x1960.242a98ca6844329f3099.webp",
+    "static/media/resized_1770x1770.webp": "/portfolio-Sandro-Pimentel/static/media/resized_1770x1770.d93a0fe2275df1b296b2.webp",
+    "static/media/resized_1550x1550.webp": "/portfolio-Sandro-Pimentel/static/media/resized_1550x1550.8c4c30c270c94a40514f.webp",
+    "static/media/resized_1300x1300.webp": "/portfolio-Sandro-Pimentel/static/media/resized_1300x1300.029994f8cb2d7abd5b37.webp",
+    "static/media/resized_980x980.webp": "/portfolio-Sandro-Pimentel/static/media/resized_980x980.a34916e83aa821cae061.webp",
+    "static/media/wu-logo.webp": "/portfolio-Sandro-Pimentel/static/media/wu-logo.ccfbbbeb9c68e7e0dd52.webp",
+    "static/media/resized_720x720.webp": "/portfolio-Sandro-Pimentel/static/media/resized_720x720.0993b80f2f6f663f4bd9.webp",
+    "static/media/sumup-logo.webp": "/portfolio-Sandro-Pimentel/static/media/sumup-logo.16c5ca93da0787878e80.webp",
+    "static/media/resized_256x256.webp": "/portfolio-Sandro-Pimentel/static/media/resized_256x256.8e785330fd2bc19be3f4.webp",
+    "static/media/slick.svg": "/portfolio-Sandro-Pimentel/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-Sandro-Pimentel/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-Sandro-Pimentel/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-Sandro-Pimentel/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/arrow.svg": "/portfolio-Sandro-Pimentel/static/media/arrow.38dab4867bd0ee7bac4380085bf27efb.svg",
+    "index.html": "/portfolio-Sandro-Pimentel/index.html",
+    "main.1d09e7d1.css.map": "/portfolio-Sandro-Pimentel/static/css/main.1d09e7d1.css.map",
+    "main.75d4fe69.js.map": "/portfolio-Sandro-Pimentel/static/js/main.75d4fe69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d09e7d1.css",
+    "static/js/main.75d4fe69.js"
+  ]
+}

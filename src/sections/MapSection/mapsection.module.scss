@@ -9,8 +9,30 @@
   padding: 4% 0; 
   padding-bottom: 3%;
 
+  .mapContent {
+
+    width: 80%;
+    margin: 5% auto;
+    @media (max-width: 838px) { 
+      margin: 10% auto;
+  } 
+  }
+
+  h1 {
+    font-size: 2em;
+
+    @media (max-width: 838px) { 
+      font-size: 1.5em;
+  } 
+  }
+
   p {
     font-size: 1.2em;
     padding: 1em;
+
+    @media (max-width: 838px) { 
+      font-size: 1em;
+      text-align: center;
+  } 
   }
 }

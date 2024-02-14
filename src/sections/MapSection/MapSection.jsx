@@ -23,7 +23,7 @@ const MapSection = () => {
       <h1>Nos coordonnées</h1>
       <p>Cliquez sur le Pointeur pour avoir directement le trajet vers notre boutique</p>
       <div className={styles.mapContent}>
-        <div style={{ height: '50vh', width:'1000px'}}>
+        <div style={{ height: '50vh', width: '100%' }}>
           <GoogleMapReact
             bootstrapURLKeys={{ key: 'AIzaSyDKvSpOtXnWUTLqxoTC_-qZWm8HNh52Q6k' }}
             defaultCenter={boutiqueCoords}

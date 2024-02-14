@@ -35,6 +35,16 @@
         }
       }
     }
+
+    @media (max-width: 838px) { 
+      display: flex;
+     flex-direction: column;
+     margin-top: 5%;
+
+     .footerSection1, .footerSection2 {
+      margin: 3% 3%; 
+    }
+  } 
   }
 
   .footerBottom {

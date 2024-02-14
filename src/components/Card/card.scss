@@ -4,29 +4,38 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start; // Align items from the top
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   margin: 2em;
-  transition: all 0.6s ease;
+  width: 90%;
+  max-height: 80vh; // Ajustez en fonction de votre mise en page
+  transition: opacity 0.6s ease, transform 0.6s ease; // Appliquez la transition uniquement sur l'opacité et la transformation
   opacity: 0.5; 
   margin-top: 10%;
-  width: 90%;
+  
+  @media (max-width: 838px) { 
+    width: 70%;
+    max-height: 60vh; // Ajustez en fonction de votre mise en page
+  }  
 
   .image {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    object-position: top; // Assurez que le haut de l'image reste fixe
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: $hover-txt-color;
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
+    margin-top: 1em;
+    margin-bottom: 0;
   }
 
   .description {
@@ -35,6 +44,6 @@
     text-align: center;
     padding: 0 1rem;
     margin-bottom: 1em;
-    height: 100px;
+    height: 100px; // Assurez-vous que cette hauteur est suffisante pour le texte
   }
 }

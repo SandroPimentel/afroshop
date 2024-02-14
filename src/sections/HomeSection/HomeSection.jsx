@@ -21,7 +21,7 @@ const HomeSection = () => {
       </div>
       <ScrollLink className={`${styles['down-button']} ${isLoaded ? styles.loaded : ''}`} to="products" smooth={true}>
         <span className={styles.icon}>
-          <img src={Arrow} className={styles.arrow} alt="arrow" />
+          <img src={Arrow} className={styles.arrow} alt="flèche" />
         </span>
         <span className={styles.text}>Nos produits</span>
       </ScrollLink>

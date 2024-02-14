@@ -13,15 +13,15 @@ const Footer = () => {
           <p>
             Téléphone : <a href="tel:+33652519571">+33 6 52 51 95 71</a>
           </p>
-          <p>Email : contact@afroshop.com</p>
+          <p>Email : ehuivi.hlontor@gmail.com</p>
         </div>
         <div className={styles.footerSection2}>
           <h3>Modes de paiement</h3>
           <p>Nous acceptons les paiements par :</p>
           <ul>
+            <li>Espèces</li>
             <li>Carte bancaire</li>
-            <li>Western Union <img src={WULogo}/></li>
-            <li>Sumup <img src={SumupLogo}/></li>
+            <li>Sumup <img src={SumupLogo} alt='Logo de sumup'/></li>
           </ul>
         </div>
       </div>

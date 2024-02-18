@@ -17,6 +17,7 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     background-color: $mainbg;
     color: $txt-color;
+    touch-action: manipulation;
 }
 
 #root {
@@ -34,3 +35,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
+img {
+    pointer-events: none;
+  }

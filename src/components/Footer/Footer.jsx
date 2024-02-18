@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './footer.module.scss';
-import WULogo from '../../images/wu-logo.webp'
 import SumupLogo from '../../images/sumup-logo.webp'
 
 const Footer = () => {
